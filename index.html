@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/01-selectores.js"></script>
+    <style>
+        .zebra {
+            border: 1px dashed black;
+        }
+        .grande {
+            font-size: 30px;
+        }
+        .margen-superior {
+            display: block;
+            margin-top: 45px;
+        }
+        .resaltado {
+            border-bottom: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manejo de Jquery</h1>
+    <ul>
+        <li>
+            <a href="https://www.google.com/" title="Google">Google</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/" title="Youtube">Youtube</a>
+        </li>
+        <li>
+            <a href="https://www.udemy.com" title="Udemy">Udemy</a>
+        </li>
+    </ul>
+    <p>Ejercicios</p>
+    <p id="amarillo" class="zebra">Parrafo color amarillo</p>
+    <p id="azul" class="sin-borde">Parrafo color azul</p>
+    <p id="rojo" class="zebra">Parrafo color rojo</p>
+
+    <p class="sin-borde">Soy un parrafo en blanco</p>
+
+    <div id="caja">
+        <p>Hola soy una caja</p>
+        <ul>
+            <li>Elemento 1</li>
+            <li class="resaltado">Elemento 2</li>
+        </ul>
+        <span class="resaltado">Soy un Span</span>
+    </div>
+
+</body>
+</html>

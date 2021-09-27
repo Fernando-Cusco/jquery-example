@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/03-ajax.js"></script>
+    <style>
+        #datos {
+            border: 2px solid black;
+            width: 250px;
+            height: 250px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendiendo Jquery - Ajax</h1>
+    <div id="datos">
+
+    </div>
+
+    <form action="https://reqres.in/api/users" method="POST" id="formulario">
+        <label for="name">Nombres</label>
+        <input type="text" id="name" placeholder="nombres">
+        <label for="job">En que trabajas?</label>
+        <input type="text" id="job" placeholder="en que trabajas?">
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
